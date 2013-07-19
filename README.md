@@ -25,5 +25,14 @@ $(document).ready(function() {
      $('.tip').tipit();
 });
 </script>
+```
 
+that's it. You've included the tipit plugin in your site, now whenever you want yo use it, refer to the code below.
+
+```html
+<span class="tip" data-tip="This is the Tool Tip Text">
+
+<!-- whatever is added here will activate the tooltip when a user mouses over it on your page. -->
+
+</span>
 ```
