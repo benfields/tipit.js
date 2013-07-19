@@ -1,4 +1,4 @@
-tipIt.js
+tipit.js
 ========
 
-A simple way to create tooltips using JavaScript and CSS.
+A small jQuery plugin letting you hover-activated tootips to your site.
