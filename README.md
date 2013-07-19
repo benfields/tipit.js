@@ -36,3 +36,7 @@ that's it. You've included the tipit plugin in your site, now whenever you want 
 
 </span>
 ```
+
+### Sharing is Caring
+
+this code is licnesed under the MIT license which can be found in the LICENSE file in the root of this repo, a well as my personal license, which cade be found at the end of this file (README.md)
