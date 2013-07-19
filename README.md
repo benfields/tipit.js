@@ -39,7 +39,7 @@ that's it. You've included the tipit plugin in your site, now whenever you want 
 
 ### Sharing is Caring
 
-this code is licensed under the MIT license which can be found in the LICENSE file in the root of this repo, a well as my personal license, which can be found at the end of this file (README.md)
+this code is licensed under the MIT license which can be found in the LICENSE file in the root of this repo, as well as my personal license, which can be found at the end of this file (README.md)
 
 ========
 
