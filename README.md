@@ -1,7 +1,7 @@
 tipit.js
 ========
 
-A small jQuery plugin letting you add hover-activated tootips to your website.
+A small jQuery plugin letting you add hover-activated tooltips to your website.
 
 ========
 
