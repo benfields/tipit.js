@@ -1,7 +1,7 @@
 tipit.js
 ========
 
-A small jQuery plugin letting you hover-activated tootips to your site.
+A small jQuery plugin letting you add hover-activated tootips to your website.
 
 ========
 
