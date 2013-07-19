@@ -1,3 +1,13 @@
+::selection {
+    background: #616161; /* Safari, Chrome, IE, Opera, & More */
+    color: #ffffff;
+    }
+::-moz-selection {
+    background: #616161; /* Firefox */
+    color: #ffffff;
+}
+
+
 
 body
 {
