@@ -1,0 +1,76 @@
+.tipit_content
+{
+     font: 13px/1.7 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     color: #fff; 
+     background-color: #333333;
+     color: #fff;
+     padding: 9px 17px;
+}
+.tipit_container_bottom
+{
+     display: none;
+     position: absolute;
+     margin-top: 13px;
+     z-index: 1000;
+}
+.tipit_container_top
+{
+     display: none;
+     position: absolute;
+     margin-top: -75px;
+     z-index: 1000;
+}
+.tipit_point_top, .tipit_point_bottom 
+{
+     position: relative;
+  background: #333333;
+	border: 1px solid #dcdcdc;
+}
+.tipit_point_top:after, .tipit_point_top:before
+{
+	position: absolute;
+	pointer-events: none;
+	border: solid transparent;
+	top: 100%;
+	content: "";
+	height: 0;
+	width: 0;
+}
+.tipit_point_top:after
+{
+	border-top-color: #fff;
+	border-width: 8px;
+	left: 50%;
+	margin-left: -8px;
+}
+.tipit_point_top:before 
+{
+	border-top-color: #dcdcdc;
+	border-width: 9px;
+	left: 50%;
+	margin-left: -9px;
+}
+.tipit_point_bottom:after, .tipit_point_bottom:before
+{
+	position: absolute;
+	pointer-events: none;
+	border: solid transparent;
+	bottom: 100%;
+	content: "";
+	height: 0;
+	width: 0;
+}
+.tipit_point_bottom:after
+{
+	border-bottom-color: #333333;
+	border-width: 8px;
+	left: 50%;
+	margin-left: -8px;
+}
+.tipit_point_bottom:before 
+{
+	border-bottom-color: #dcdcdc;
+	border-width: 9px;
+	left: 50%;
+	margin-left: -9px;
+}
