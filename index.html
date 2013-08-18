@@ -44,6 +44,46 @@
 </script>
 
 
+
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    // init the FB JS SDK
+    FB.init({
+      appId      : '155768244629457',                        // App ID from the app dashboard
+      channelUrl : '//benfields.github.io/tipit.js/index.html', // Channel file for x-domain comms
+      status     : true,                                 // Check Facebook Login status
+      xfbml      : true                                  // Look for social plugins on the page
+    });
+
+    // Additional initialization code such as adding Event Listeners goes here
+  };
+
+  // Load the SDK asynchronously
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/all.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=155768244629457";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
 <div class="block" style="padding-top: 21px;">
 
 <h1 style="font-size: 4em;"><span class="tip" data-tip="by Ben Fields">tipit.js</span></h1>
@@ -101,6 +141,10 @@ there is a demo <a href="http://benfields.github.io/tipit.js/demo">here</a>.
 </script> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://benfields.github.io/tipit.js" data-text="an open source tool tip repository -">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+&nbsp;
+
+<div class="fb-like" data-href="http://benfields.github.io/tipit.js" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+
 &nbsp;
 
 <iframe src="http://ghbtns.com/github-btn.html?user=benfields&repo=tipit.js&type=fork&count=true"
